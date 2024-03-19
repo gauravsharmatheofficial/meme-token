@@ -33,10 +33,11 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
+            <div className="relative z-1 max-w-[25rem] ml-auto">
               <h4 className="h4 mb-4">The Memeifesto</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Welcome to the wild side of crypto - where memes aren't just
+                dreams, and astrology isn’t just your daily horoscope.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (

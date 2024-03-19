@@ -89,9 +89,11 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [dia_logo, purplerock];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Everyone Loves to Pump Uranus more then they like when Uranus Dumps.",
+  "The liquidity injections just keep coming into Uranus.",
+  "Don’t pass gas (it’s gonna be giant)",
+  "Hold onto Uranus!",
+  "Disclaimer: This is all in good fun – a blend of memes, astrology, and crypto. We will not go moon, we going to Uranus.",
 ];
 
 export const brainwaveServicesIcons = [
