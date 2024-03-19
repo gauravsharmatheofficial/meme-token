@@ -78,7 +78,7 @@ const Services = () => {
               <PhotoChatMessage />
             </div> */}
 
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
+            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[42rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Watch This To know More</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
@@ -110,7 +110,10 @@ const Services = () => {
                 </ul> */}
               </div>
 
-              <div className="relative h-[40rem] bg-n-8 rounded-xl overflow-hidden ">
+              <div
+                className="relative h-[40rem] bg-n-8 rounded-xl overflow-hidden "
+                id="video"
+              >
                 {/* <img
                   src={service3}
                   className="w-full h-full object-cover"
