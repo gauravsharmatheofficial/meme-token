@@ -80,7 +80,7 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video This To know More</h4>
+                <h4 className="h4 mb-4">Watch This To know More</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   Elon sues OpenAI, Apple's decline, TikTok ban, Bitcoin $100K?,
                   Science corner: Microplastics
