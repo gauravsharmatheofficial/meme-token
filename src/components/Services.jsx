@@ -17,15 +17,15 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="In Crypto We Trust, But In Uranus, We Believe!"
+          title="In Crypto We Trust, But In Uranus, We Believe!"
           // text="Brainwave unlocks the potential of AI-powered applications"
         />
 
-        <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+        <div className="">
+          <div className="flex flex-col md:flex-row items-center mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-35 xl:h-[46rem]">
+            <div className="basis-1/2">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className=""
                 width={800}
                 alt="The Memeifesto"
                 height={730}
@@ -33,7 +33,7 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[25rem] ml-auto">
+            <div className="pl-0 pt-5 md:pt-0 md:pl-5 basis-1/2">
               <h4 className="h4 mb-4">The Memeifesto</h4>
               <p className="body-2 mb-[3rem] text-n-3">
                 Welcome to the wild side of crypto - where memes aren't just
@@ -52,90 +52,31 @@ const Services = () => {
               </ul>
             </div>
 
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
+            {/* <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" /> */}
           </div>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-1">
-            {/* <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
-                <img
-                  src={service2}
-                  className="h-full w-full object-cover"
-                  width={630}
-                  height={750}
-                  alt="robot"
-                />
-              </div>
-
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
-                </p>
-              </div>
-
-              <PhotoChatMessage />
-            </div> */}
-
-            <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[42rem]">
+          <div className="">
+            <div className="flex flex-col p-4 bg-n-7 rounded-3xl">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Watch This To know More</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   Elon sues OpenAI, Apple's decline, TikTok ban, Bitcoin $100K?,
                   Science corner: Microplastics
                 </p>
-
-                {/* <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`rounded-2xl flex items-center justify-center ${
-                        index === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
-                      }`}
-                    >
-                      <div
-                        className={
-                          index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
-                            : ""
-                        }
-                      >
-                        <img src={item} width={24} height={24} alt={item} />
-                      </div>
-                    </li>
-                  ))}
-                </ul> */}
               </div>
 
-              <div
-                className="relative h-[40rem] bg-n-8 rounded-xl overflow-hidden "
-                id="video"
-              >
-                {/* <img
-                  src={service3}
-                  className="w-full h-full object-cover"
-                  width={3840}
-                  height={2160}
-                  alt="Scary robot"
-                /> */}
+              <div className="aspect-video">
                 <iframe
-                  width="1236"
-                  height="695"
+                  className="w-full h-full"
                   src="https://www.youtube.com/embed/snbTCWL6rxo"
                   title="E169: Elon sues OpenAI, Apple&#39;s decline, TikTok ban, Bitcoin $100K?, Science corner: Microplastics"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen
                 ></iframe>
-                {/* <VideoChatMessage /> */}
-                {/* <VideoBar /> */}
               </div>
             </div>
           </div>
-
           <Gradient />
         </div>
       </div>
