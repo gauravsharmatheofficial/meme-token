@@ -3,25 +3,17 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
   chromecast,
   disc02,
-  // discord,
   discordBlack,
   facebook,
-  // figma,
   file02,
-  // framer,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  // notion,
-  // photoshop,
   plusSquare,
-  // protopie,
-  // raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -29,11 +21,9 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  // slack,
   sliders04,
   telegram,
   twitter,
-  yourlogo,
   dia_logo,
   purplerock,
   meme1,
@@ -67,7 +57,6 @@ export const navigation = [
     id: "3",
     title: "Video",
     url: "#video",
-    // onlyMobile: true,
   },
 ];
 
@@ -135,17 +124,14 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    // title: "Seamless Integration",
     text: "Uranus, the ruler of Aquarius, starts 2024 in retrograde, going direct on Saturday, January 27, then retrogrades again on Sunday, September 1. This suggests ongoing evolution in your home life and personal growth. ",
   },
   {
     id: "1",
-    // title: "Smart Automation",
     text: "Uranus champions individuality, social justice, and authenticity. During its retrograde, focus on living by your values and perhaps engage more actively in humanitarian efforts.",
   },
   {
     id: "2",
-    // title: "Top-notch Security",
     text: "In 2024, the location of the Sun on the March equinox is in the constellation of Pisces but also on the border of Aquarius. So, we are slowly moving into a new age, from Pisces to Aquarius.",
   },
 ];
@@ -298,7 +284,7 @@ export const benefits = [
   },
 
   {
-    id: "0",
+    id: "6",
     title: "Ask anything",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
@@ -306,7 +292,7 @@ export const benefits = [
     imageUrl: meme7,
   },
   {
-    id: "1",
+    id: "7",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
@@ -315,7 +301,7 @@ export const benefits = [
     light: true,
   },
   {
-    id: "2",
+    id: "8",
     title: "Connect everywhere",
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",

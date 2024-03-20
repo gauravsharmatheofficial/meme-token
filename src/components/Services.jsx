@@ -1,25 +1,15 @@
 import Section from "./Section";
 import Heading from "./Heading";
-import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { check } from "../assets";
+import { brainwaveServices } from "../constants";
 import { wildsideofcrypto } from "../assets";
-import {
-  PhotoChatMessage,
-  Gradient,
-  VideoBar,
-  VideoChatMessage,
-} from "./design/Services";
-
-import Generating from "./Generating";
+import { Gradient } from "./design/Services";
 
 const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
-        <Heading
-          title="In Crypto We Trust, But In Uranus, We Believe!"
-          // text="Brainwave unlocks the potential of AI-powered applications"
-        />
+        <Heading title="In Crypto We Trust, But In Uranus, We Believe!" />
 
         <div className="">
           <div className="flex flex-col md:flex-row items-center mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-35 xl:h-[46rem]">
@@ -51,12 +41,10 @@ const Services = () => {
                 ))}
               </ul>
             </div>
-
-            {/* <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" /> */}
           </div>
 
           <div className="">
-            <div className="flex flex-col p-4 bg-n-7 rounded-3xl">
+            <div className="flex flex-col p-4 bg-n-7 rounded-3xl" id="video">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Watch This To know More</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
@@ -70,9 +58,8 @@ const Services = () => {
                   className="w-full h-full"
                   src="https://www.youtube.com/embed/snbTCWL6rxo"
                   title="E169: Elon sues OpenAI, Apple&#39;s decline, TikTok ban, Bitcoin $100K?, Science corner: Microplastics"
-                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </div>
             </div>
