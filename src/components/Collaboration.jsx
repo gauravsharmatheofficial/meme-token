@@ -1,6 +1,5 @@
 import { uranusLogo, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
-import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
@@ -8,10 +7,10 @@ const Collaboration = () => {
   return (
     <Section crosses id="about">
       <div className="container lg:flex">
-        <div className="max-w-[25rem]">
+        <div className="max-w-none lg:max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">About Us</h2>
 
-          <ul className="max-w-[30rem] mb-10 md:mb-6">
+          <ul className="max-w-none lg:max-w-[30rem] mb-10 md:mb-6">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-start">
@@ -21,8 +20,6 @@ const Collaboration = () => {
               </li>
             ))}
           </ul>
-
-          <Button>Try it now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

@@ -51,7 +51,7 @@ const Footer = () => {
       <hr className=" pt-6 border-[#17161a] w-[95.5%]	mx-auto" />
       <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
         <p className="caption text-n-4 lg:block">
-          Copyright © {new Date().getFullYear()} Uranus All rights reserved.
+          Copyright © {new Date().getFullYear()} Uranus, made by Deepesh Sharma
         </p>
 
         <ul className="flex gap-5 flex-wrap">
